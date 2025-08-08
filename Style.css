@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+background-image: url("./Assets/Background.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.n1 {
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 220px;
+    height: 38px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 16px; /* changed from auto to 16px */
+    margin-top: 24px;    /* optional: space below heading */
+}
+.email {
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 220px;
+    height: 38px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 16px; /* add this for spacing */
+}
+.Submit {
+    width: 100px; 
+    height: 30px; 
+    font-size: 16px; 
+    background-color: rgb(11, 225, 11);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.n1::placeholder {
+    color: #fff; /* Change to white, or use #000 for black */
+    text-shadow: 1px 1px 2px #000; /* Optional: adds shadow for better readability */
+    opacity: 1; /* Ensures full opacity */
+}
+.email::placeholder {
+    color: #fff; /* Change to white, or use #000 for black */
+    text-shadow: 1px 1px 2px #000; /* Optional: adds shadow for better readability */
+    opacity: 1; /* Ensures full opacity */
+}
+.n1:focus,
+.email:focus {
+    border-color: #00e676;
+    box-shadow: 0 0 8px #00e676;
+}
+/* Add to your Style.css */
+h3 {
+    color: #23395d;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+}
+/* Add to your Style.css */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background: rgba(35, 57, 93, 0.85);
+    padding: 18px 0;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #23395d;
+}
